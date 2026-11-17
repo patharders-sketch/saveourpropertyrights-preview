@@ -91,7 +91,7 @@ ol.timeline .when{font-size:13px;font-weight:700;text-transform:uppercase;letter
 .action .deadline{display:inline-block;background:var(--amber-bg);color:var(--amber);font-weight:700;font-size:14px;border-radius:8px;padding:3px 8px;margin:6px 0}
 .script{background:var(--bg-soft);border:1px dashed #b9c3d6;border-radius:12px;padding:14px;font-family:var(--serif);font-size:17px;margin:10px 0}
 
-.who{display:grid;gap:20px;align-items:start}
+.who{max-width:760px}
 .photo-ph{aspect-ratio:1/1;max-width:220px;border-radius:50%;background:repeating-linear-gradient(45deg,#eef2f8,#eef2f8 10px,#e3e9f3 10px,#e3e9f3 20px);display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-size:14px;border:2px dashed #b9c3d6;padding:20px}
 .todo{background:#fff2b3;color:#5b4500;border-radius:4px;padding:0 4px;font-weight:700}
 
@@ -110,7 +110,6 @@ footer.site a{color:#fff}
   .agree-grid{grid-template-columns:repeat(2,1fr)}
   .split{grid-template-columns:1fr 1fr}
   .action{grid-template-columns:repeat(3,1fr)}
-  .who{grid-template-columns:220px 1fr}
   .hero .wrap{padding-top:80px;padding-bottom:90px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
